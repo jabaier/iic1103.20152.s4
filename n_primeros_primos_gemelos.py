@@ -1,4 +1,4 @@
-cuantos = int(input('cuantos primos quieres que muestre? '))
+cuantos = int(input('cuantos primos gemelos quieres que muestre? '))
 
 N = 2
 
@@ -23,4 +23,3 @@ while gemelos < cuantos:
             print(N,N+2)
             gemelos=gemelos+1
     N = N+1
-    
